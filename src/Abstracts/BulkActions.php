@@ -11,7 +11,7 @@
 
 declare( strict_types=1 );
 
-namespace ArrayPress\WP\RegisterBulkActions\Abstracts;
+namespace ArrayPress\RegisterBulkActions\Abstracts;
 
 use Exception;
 
@@ -122,7 +122,6 @@ abstract class BulkActions {
 		$actions = self::get_actions( $this->object_type, $this->object_subtype );
 
 		foreach ( $actions as $key => $action ) {
-			// Check capability
 			if ( ! empty( $action['capability'] ) && ! current_user_can( $action['capability'] ) ) {
 				continue;
 			}

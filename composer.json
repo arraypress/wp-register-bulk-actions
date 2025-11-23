@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "ArrayPress\\WP\\RegisterBulkActions\\": "src/"
+      "ArrayPress\\RegisterBulkActions\\": "src/"
     },
     "files": [
       "src/Functions.php"

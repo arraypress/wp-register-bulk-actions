@@ -11,9 +11,9 @@
 
 declare( strict_types=1 );
 
-namespace ArrayPress\WP\RegisterBulkActions\Tables;
+namespace ArrayPress\RegisterBulkActions\Tables;
 
-use ArrayPress\WP\RegisterBulkActions\Abstracts\BulkActions;
+use ArrayPress\RegisterBulkActions\Abstracts\BulkActions;
 
 class Post extends BulkActions {
 

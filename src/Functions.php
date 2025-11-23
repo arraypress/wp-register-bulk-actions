@@ -13,11 +13,11 @@
 
 declare( strict_types=1 );
 
-use ArrayPress\WP\RegisterBulkActions\Tables\Post;
-use ArrayPress\WP\RegisterBulkActions\Tables\User;
-use ArrayPress\WP\RegisterBulkActions\Tables\Taxonomy;
-use ArrayPress\WP\RegisterBulkActions\Tables\Comment;
-use ArrayPress\WP\RegisterBulkActions\Tables\Media;
+use ArrayPress\RegisterBulkActions\Tables\Post;
+use ArrayPress\RegisterBulkActions\Tables\User;
+use ArrayPress\RegisterBulkActions\Tables\Taxonomy;
+use ArrayPress\RegisterBulkActions\Tables\Comment;
+use ArrayPress\RegisterBulkActions\Tables\Media;
 
 if ( ! function_exists( 'register_post_bulk_actions' ) ):
 	/**
